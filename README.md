@@ -1,6 +1,6 @@
 # html-aware-translator
 
-![Build Result](https://travis-ci.com/willnode/html-aware-translator.svg?branch=main)
+[![Build Status](https://travis-ci.com/willnode/html-aware-translator.svg?branch=master)](https://travis-ci.com/willnode/html-aware-translator)
 
 ### [Try now](https://willnode.github.io/html-aware-translator)
 
