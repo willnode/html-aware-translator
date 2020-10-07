@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/highlight.js/styles/github.css"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="nav my-2 align-items-center">
+            <span>From</span>
+            <select class="ml-2" id="langin"></select>
+            <span class="ml-2">To</span>
+            <select class="ml-2" id="langout"></select>
+            <button id="translateBtn" class="btn btn-primary btn-sm ml-2">Translate!</button>
+          </div>
+          <textarea id="input" class="w-100 font-monospace small" rows="30"></textarea>
+          <blockquote><small>Made with ❤ <a href="https://github.com/willnode/html-aware-translator">willnode</a> </small></blockquote>
+        </div>
+        <div class="col-md-6">
+          <div class="nav my-2 align-items-center">
+            <span>Translated HTML&nbsp;</span>
+            <i id="progress"></i>
+          </div>
+
+          <pre><code id="output" style="user-select: all;" class="language-html text-wrap"></code></pre>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
