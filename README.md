@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/willnode/html-aware-translator.svg?branch=master)](https://travis-ci.com/willnode/html-aware-translator)
 
+This tool extracts HTML text and translate it in batch and inject them back. Useful for quick translating HTML pages. 
+
 ### [Try now](https://willnode.github.io/html-aware-translator)
 
 If you plan to make automated requests or other heavy requests, please deploy your own VM that runs CORS proxy and put that URL to `localStorage['trans_content_cors']` (reload to make your changes takes effect).
