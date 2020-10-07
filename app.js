@@ -6,7 +6,7 @@ import { setCORS } from "google-translate-api-browser";
 import langs from "google-translate-api-browser/dist/languages";
 import { decodeHTML, encodeXML } from "entities/lib/index";
 // setting up cors-anywhere server address
-const translate = setCORS(localStorage["trans_content_cors"] || "http://cors-anywhere-translate.dom.my.id/");
+const translate = setCORS(localStorage["trans_content_cors"] || "https://cors-anywhere-translate.dom.my.id/");
 const translateBtn = document.getElementById("translateBtn");
 const progress = document.getElementById("progress");
 const input = document.getElementById("input");
